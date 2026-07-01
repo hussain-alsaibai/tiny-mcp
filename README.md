@@ -198,3 +198,22 @@ MIT License — see [LICENSE](LICENSE) for details.
 ## Contributing
 
  tiny-mcp intentionally stays minimal. For bug reports or small improvements, open an issue. For new features, consider whether they can be achieved without adding dependencies.
+
+## Ecosystem
+
+Part of the **tiny-*** zero-dependency toolkit for Python agent infrastructure:
+
+- [**tiny-router**](https://github.com/hussain-alsaibai/tiny-router) — HTTP router, 76K req/s
+- [**tiny-log**](https://github.com/hussain-alsaibai/tiny-log) — structured logging
+- [**tiny-validator**](https://github.com/hussain-alsaibai/tiny-validator) — input validation, 247K val/s
+- [**tiny-config**](https://github.com/hussain-alsaibai/tiny-config) — layered config loader
+- [**tiny-cli**](https://github.com/hussain-alsaibai/tiny-cli) — CLI builder with colors
+- [**fast-cache**](https://github.com/hussain-alsaibai/fast-cache) — LRU + TTL + SWR cache
+- [**tiny-rate**](https://github.com/hussain-alsaibai/tiny-rate) — rate limiter (token / fixed / sliding)
+- [**tiny-retry**](https://github.com/hussain-alsaibai/tiny-retry) — retry + backoff + circuit breaker
+- [**tiny-pool**](https://github.com/hussain-alsaibai/tiny-pool) — ThreadPool + AsyncPool
+- [**tiny-agent**](https://github.com/hussain-alsaibai/tiny-agent) — zero-dep agent framework
+- [**tiny-embed**](https://github.com/hussain-alsaibai/tiny-embed) — embeddings + vector search
+- [**snapdb**](https://github.com/hussain-alsaibai/snapdb) — embedded DB
+
+12 repos, ~5,200 LOC, zero dependencies across the entire stack. Built by [OpenClaw](https://github.com/hussain-alsaibai).
