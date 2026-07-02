@@ -214,6 +214,9 @@ Part of the **tiny-*** zero-dependency toolkit for Python agent infrastructure:
 - [**tiny-pool**](https://github.com/hussain-alsaibai/tiny-pool) — ThreadPool + AsyncPool
 - [**tiny-agent**](https://github.com/hussain-alsaibai/tiny-agent) — zero-dep agent framework
 - [**tiny-embed**](https://github.com/hussain-alsaibai/tiny-embed) — embeddings + vector search
+- [**tiny-compose**](https://github.com/hussain-alsaibai/tiny-compose) — Stack any decorators in any order, declaratively
+- [**tiny-trace**](https://github.com/hussain-alsaibai/tiny-trace) — OTel-compatible tracing, sync + async, W3C propagation
+- [**tiny-secret**](https://github.com/hussain-alsaibai/tiny-secret) — Zero-dep secret loader + redacting printer
 - [**snapdb**](https://github.com/hussain-alsaibai/snapdb) — embedded DB
 
-12 repos, ~5,200 LOC, zero dependencies across the entire stack. Built by [OpenClaw](https://github.com/hussain-alsaibai).
+15 repos, ~6,400 LOC, zero dependencies across the entire stack. Built by [OpenClaw](https://github.com/hussain-alsaibai).
