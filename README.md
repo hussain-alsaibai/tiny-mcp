@@ -189,6 +189,35 @@ Runs a simple throughput test measuring messages processed per second.
 
 ---
 
+
+---
+
+## Ecosystem
+
+`tiny-mcp` is part of the **tiny-*** zero-dependency toolkit:
+
+- [tiny-router](https://github.com/hussain-alsaibai/tiny-router) — HTTP router, 76K req/s
+- [tiny-log](https://github.com/hussain-alsaibai/tiny-log) — Structured logging
+- [tiny-validator](https://github.com/hussain-alsaibai/tiny-validator) — Input validation, 247K val/s
+- [tiny-config](https://github.com/hussain-alsaibai/tiny-config) — Layered config loader
+- [tiny-cli](https://github.com/hussain-alsaibai/tiny-cli) — CLI builder with colors
+- [fast-cache](https://github.com/hussain-alsaibai/fast-cache) — LRU + TTL + SWR cache
+- [tiny-rate](https://github.com/hussain-alsaibai/tiny-rate) — Rate limiter (token / fixed / sliding)
+- [tiny-retry](https://github.com/hussain-alsaibai/tiny-retry) — Retry + backoff + circuit breaker
+- [tiny-pool](https://github.com/hussain-alsaibai/tiny-pool) — ThreadPool + AsyncPool
+- [tiny-compose](https://github.com/hussain-alsaibai/tiny-compose) — Decorator stacker / pipeline
+- [tiny-trace](https://github.com/hussain-alsaibai/tiny-trace) — OTel-API subset, W3C trace
+- [tiny-secret](https://github.com/hussain-alsaibai/tiny-secret) — Secret loader + redacting logger
+- [tiny-cron](https://github.com/hussain-alsaibai/tiny-cron) — Cron-style scheduler + intervals
+- [tiny-flags](https://github.com/hussain-alsaibai/tiny-flags) — Feature flags, percentage rollout
+- [tiny-queue](https://github.com/hussain-alsaibai/tiny-queue) — Persistent FIFO queue, retries
+- [tiny-agent](https://github.com/hussain-alsaibai/tiny-agent) — Zero-dep agent framework
+- [tiny-mcp](https://github.com/hussain-alsaibai/tiny-mcp) — Model Context Protocol
+- [tiny-embed](https://github.com/hussain-alsaibai/tiny-embed) — Embeddings + vector search
+- [snapdb](https://github.com/hussain-alsaibai/snapdb) — Embedded DB
+
+18 repos, ~14K LOC, zero dependencies across the entire stack. All single-file, MIT, fully type-hinted. Built by [OpenClaw](https://github.com/hussain-alsaibai).
+
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
@@ -198,25 +227,3 @@ MIT License — see [LICENSE](LICENSE) for details.
 ## Contributing
 
  tiny-mcp intentionally stays minimal. For bug reports or small improvements, open an issue. For new features, consider whether they can be achieved without adding dependencies.
-
-## Ecosystem
-
-Part of the **tiny-*** zero-dependency toolkit for Python agent infrastructure:
-
-- [**tiny-router**](https://github.com/hussain-alsaibai/tiny-router) — HTTP router, 76K req/s
-- [**tiny-log**](https://github.com/hussain-alsaibai/tiny-log) — structured logging
-- [**tiny-validator**](https://github.com/hussain-alsaibai/tiny-validator) — input validation, 247K val/s
-- [**tiny-config**](https://github.com/hussain-alsaibai/tiny-config) — layered config loader
-- [**tiny-cli**](https://github.com/hussain-alsaibai/tiny-cli) — CLI builder with colors
-- [**fast-cache**](https://github.com/hussain-alsaibai/fast-cache) — LRU + TTL + SWR cache
-- [**tiny-rate**](https://github.com/hussain-alsaibai/tiny-rate) — rate limiter (token / fixed / sliding)
-- [**tiny-retry**](https://github.com/hussain-alsaibai/tiny-retry) — retry + backoff + circuit breaker
-- [**tiny-pool**](https://github.com/hussain-alsaibai/tiny-pool) — ThreadPool + AsyncPool
-- [**tiny-agent**](https://github.com/hussain-alsaibai/tiny-agent) — zero-dep agent framework
-- [**tiny-embed**](https://github.com/hussain-alsaibai/tiny-embed) — embeddings + vector search
-- [**tiny-compose**](https://github.com/hussain-alsaibai/tiny-compose) — Stack any decorators in any order, declaratively
-- [**tiny-trace**](https://github.com/hussain-alsaibai/tiny-trace) — OTel-compatible tracing, sync + async, W3C propagation
-- [**tiny-secret**](https://github.com/hussain-alsaibai/tiny-secret) — Zero-dep secret loader + redacting printer
-- [**snapdb**](https://github.com/hussain-alsaibai/snapdb) — embedded DB
-
-15 repos, ~6,400 LOC, zero dependencies across the entire stack. Built by [OpenClaw](https://github.com/hussain-alsaibai).
